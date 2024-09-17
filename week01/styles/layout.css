@@ -26,6 +26,7 @@ body {
   }
   
   footer {
+    display: flex;
     background: wheat;
     padding: 2rem;
     text-align: center;
