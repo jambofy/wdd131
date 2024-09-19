@@ -2,67 +2,93 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    background-color: #f0f0f0;
 }
 header {
     background-color: #1e4e6d;
-    color: white;
-    padding: 0.5em;
+    color: #ffd700;
+    padding: 10px;
     text-align: center;
 }
 h1 {
     margin: 0;
 }
-h2{
-    text-align: center;
-}
-h3{
-    text-align: center;
-    border: 20px;
-}
 nav {
     background-color: #333;
-    padding: 0.5em;
+    padding: 10px;
     text-align: center;
-  
 }
 nav a {
     color: white;
     text-decoration: none;
-    padding: 0.5em 1em;
-    text-align: center;
+    padding: 0 10px;
 }
 main {
     display: flex;
-    margin: 1em;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
 }
-#content {
-    flex: 2;
-    margin: 1em;
-}
-#web-dev-resources {
-    flex: 1;
-    background-color: #f0f0f0;
-    padding: 1em;
-}
-.card{
-    display: grid;
-    background-color: #fff;
+.card {
+    background-color: white;
     border: 1px solid #ddd;
-    margin-bottom: 1em;
-    
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 1;
 }
-.card img {
-    max-width: 20%;
-    float: right;
-    margin-left: 1em;
+#about-me {
+    margin-right: 40px;
+    text-align: center;
+}
+h2 {
+    color: #1e4e6d;
+    border-bottom: 2px solid #1e4e6d;
+    padding-bottom: 10px;
+}
+
     
+.portrait {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: auto;
+}
+
+.flag {
+    float:left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: auto;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#about-me {
+    margin-right: 20px;
+    flex: 2;
+}
+
+#resources {
+    flex: 1;
 }
 footer {
     background-color: #1e4e6d;
     color: white;
     text-align: center;
-    padding: 1em;
+    padding: 10px;
     position: fixed;
     bottom: 0;
-    width: 100%;}
+    width: 100%;
+}
