@@ -69,6 +69,13 @@ h2 {
     height: auto;
 }
 
+h3{
+    color: #1e4e6d;
+    border-bottom: 2px solid #1e4e6d;
+    padding-bottom: 10px;
+    border-width: 2px;
+
+}
 .flag {
     float:left;
     margin-right: 15px;
@@ -103,7 +110,6 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
