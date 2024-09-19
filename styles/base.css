@@ -42,10 +42,11 @@ nav a {
     padding: 0 10px;
 }
 
-nav a:hover{
-    border: #ffd700;
-}
 
+.nav-list a:hover {
+    background-color: #555;
+    color: #ff0; /* Change to your desired hover text color */
+}
 main {
     display: flex;
     justify-content: space-between;
