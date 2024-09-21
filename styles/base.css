@@ -1,23 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap');
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
-}
-h3{
-    color: #1e4e6d;
-    border-bottom: 2px solid #1e4e6d;
-    padding-bottom: 10px;
-    border-width: 2px;
-
-}
-h1 {
-    margin: 0;
-}
-h2 {
-    color: #1e4e6d;
-    border-bottom: 2px solid #1e4e6d;
-    padding-bottom: 10px;
-}
 body {
     font-family: 'Roboto', sans-serif;;
     margin: 0;
@@ -42,10 +24,28 @@ nav a {
     padding: 0 10px;
 }
 
-
 .nav-list a:hover {
     background-color: #555;
     color: #ff0; /* Change to your desired hover text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+h2 {
+    color: #ffd700;
+    border-bottom: 2px solid #1e4e6d;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+}
+
+.quicker{
+    font-weight: 1700;
+    color: green;
 }
 main {
     display: flex;
@@ -63,11 +63,10 @@ main {
     flex: 1;
 }
 #about-me {
-    margin-right: 40px;
+    margin: 10px;
     text-align: center;
-}
-
-    
+   
+}   
 .portrait {
     float: right;
     margin-left: 15px;
@@ -75,7 +74,6 @@ main {
     width: 150px;
     height: auto;
 }
-
 
 .flag {
     float:left;
@@ -89,7 +87,7 @@ main {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 20px;
+   
     margin-bottom: 20px;
     flex: 1;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -99,13 +97,27 @@ main {
     margin-right: 20px;
     flex: 2;
 }
-
-#resources h2 {
-    flex: 1;
+.para{
     text-align: center;
-   
 }
 
+#zim {
+    width: 200px;
+    margin: 0 auto;   
+    color: #1e4e6d;
+    border-bottom: 2px solid #1e4e6d;
+}
+#resources h2 {
+    flex: 1;
+    text-align: center;  
+}
+
+.heading{
+
+    background-color: #1e4e6d; 
+    width: 100%; /* Make sure it stretches across the full width */
+      
+}
 footer {
     background-color: #1e4e6d;
     color: white;
