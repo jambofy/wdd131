@@ -26,7 +26,7 @@ nav a {
 
 .nav-list a:hover {
     background-color: #555;
-    color: #ff0; /* Change to your desired hover text color */
+    color: #ff0; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -114,7 +114,7 @@ main {
 .heading{
 
     background-color: #1e4e6d; 
-    width: 100%; /* Make sure it stretches across the full width */
+    width: 100%; 
       
 }
 footer {
