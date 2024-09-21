@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap');
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto' 'Poppins';
     margin-left:500px;
     margin-right: 200px;
     margin-top: auto;
