@@ -71,7 +71,7 @@ main {
 }
 
 h2{
-    
+
     text-align: center;
 }
 
@@ -91,7 +91,7 @@ figure {
 img {
     width: 100%;
     height: auto;
-    object-fit: fit;
+    object-fit: cover;
 }
 
 figcaption {
