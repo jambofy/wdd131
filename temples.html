@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description" content="My photo album">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css" media="(min-width: 640px)">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/temples.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <nav>
+            <button id="hamburger">&#9776;</button>
+            <ul id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#old">Old</a></li>
+                <li><a href="#new">New</a></li>
+                <li><a href="#large">Large</a></li>
+                <li><a href="#small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 id="current-section">Home</h2>
+        <div class="temple-grid">
+            <figure>
+                <img src="images/zim-fla.jpeg" alt="Temple 1">
+                <figcaption>San Diego California Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="/api/placeholder/400/300" alt="Temple 2">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="/api/placeholder/400/300" alt="Temple 3">
+                <figcaption>Provo Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="/api/placeholder/400/300" alt="Temple 4">
+                <figcaption>Nauvoo Illinois Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="/api/placeholder/400/300" alt="Temple 5">
+                <figcaption>Rome Italy Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="/api/placeholder/400/300" alt="Temple 6">
+                <figcaption>Kyiv Ukraine Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="/api/placeholder/400/300" alt="Temple 7">
+                <figcaption>Manila Philippines Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="/api/placeholder/400/300" alt="Temple 8">
+                <figcaption>Paris France Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="/api/placeholder/400/300" alt="Temple 9">
+                <figcaption>Tokyo Japan Temple</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Nyasha Ushewokunze  |</span></p>
+        <p>Last Updated: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

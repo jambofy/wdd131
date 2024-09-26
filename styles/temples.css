@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap');
+
+* {
+
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    background-color: #4a0e4e;
+    color: white;
+    gap: 1300px;
+    padding-left: 10px;
+  
+    
+}
+
+nav {
+    margin-top: 1rem;
+    
+}
+
+#hamburger {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+ 
+}
+
+#nav-menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-items: end;
+    gap: 35px;
+  
+    
+}
+
+#nav-menu.show {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-menu li {
+    margin: 0.5rem 0;
+}
+
+#nav-menu a {
+    color: white;
+    text-decoration: none;
+    
+}
+#nav-menu a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h2{
+    
+    text-align: center;
+}
+
+.temple-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 1 column for mobile view */
+    gap: 16px; /* Space between grid items */
+    padding: 16px; /* Padding around the gallery */
+}
+
+figure {
+    margin: 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: fit;
+}
+
+figcaption {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #4a0e4e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    bottom: 0;
+}
