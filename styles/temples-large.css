@@ -1,8 +1,4 @@
-
 @media (min-width: 768px) {
-    .menu-icon {
-        display: none;
-    }
     .nav {
         display: flex;
         gap: 20px;
