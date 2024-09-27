@@ -10,6 +10,7 @@ body {
 header {
     display: flex;
     background-color: #4a0e4e;
+    flex-direction: row;
     color: white;
     gap: 1300px;
     padding-left: 10px; 
@@ -53,13 +54,13 @@ main {
 }
 
 h2{
-
+    font-family: 'Poppins';
     text-align: center;
 }
 
 .temple-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1fr 1fr 1fr);
     /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
     gap: 20px;
     padding: 20px;
