@@ -1,19 +1,18 @@
 
-@media (min-width: 640px) {
-    #hamburger {
+@media (min-width: 768px) {
+    .menu-icon {
         display: none;
     }
-
-    #nav-menu {
+    .nav {
         display: flex;
-        flex-direction: row;
+        gap: 20px;
+    }
+    .nav a {
+        color: white;
+        text-decoration: none;
+    }
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
     }
 
-    #nav-menu li {
-        margin: 0 1rem 0 0;
-    }
-
-    .temple-grid {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    }
 }
