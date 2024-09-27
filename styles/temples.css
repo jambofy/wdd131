@@ -1,21 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap');
-
-/* Global Styles */
-
-
-
 body {
   font-family: 'Roboto', sans-serif;
   background-color: whitesmoke;
 }
-
 img {
   max-width: 100%;
   height: auto;
 }
-
 /* Header Styles */
-
 .header {
   background-color: #4a0e4e;
   color: white;
@@ -24,66 +16,53 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-
 .header h1 {
   font-size: 24px;
 }
-
 .nav {
   display: flex;
   gap: 20px;
 }
-
 .nav a {
   color: white;
   text-decoration: none;
   font-size: 16px;
 }
-
 .nav a:hover {
   background-color: rgb(184, 219, 57);
   color: #333;
 }
-
 /* Main Content Styles */
-
 main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
 }
-
 h2 {
   font-family: 'Poppins';
   text-align: center;
 }
-
 .temple-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
 }
-
 figure {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-
 figure img {
   object-fit: cover;
   aspect-ratio: 3/2;
 }
-
 figcaption {
   padding: 0.5rem;
   text-align: center;
 }
-
 /* Footer Styles */
-
 footer {
   background-color: #4a0e4e;
   color: white;
@@ -92,9 +71,7 @@ footer {
   margin-top: 2rem;
   bottom: 0;
 }
-
 /* Media Queries */
-
 @media (max-width: 768px) {
   .header {
     flex-direction: row;
@@ -108,7 +85,6 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
 @media (max-width: 576px) {
   .header h1 {
     font-size: 18px;
@@ -120,7 +96,6 @@ footer {
     grid-template-columns: 1fr;
   }
 }
-
 @media (max-width: 480px) {
   .header {
     padding: 15px;
