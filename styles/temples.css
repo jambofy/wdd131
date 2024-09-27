@@ -6,46 +6,32 @@ body {
     padding: 0;
     background-color: whitesmoke;
 }
-
-header {
-    display: flex;
+ 
+ .header {
     background-color: #4a0e4e;
-    flex-direction: row;
     color: white;
-    gap: 1300px;
-    padding-left: 10px; 
-}
-
-nav {
-    margin-top: 1rem;   
-}
-#hamburger {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-#nav-menu {
+    padding: 20px 20px;
     display: flex;
-    list-style-type: none;
-    padding: 0;
-    justify-items: end;
-    gap: 35px;    
+    justify-content: space-between;
+    align-items: center;
 }
-#nav-menu.show {
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+   
+}
+.nav {
     display: flex;
-    flex-direction: column;
+    gap: 20px;
 }
-#nav-menu li {
-    margin: 0.5rem 0;
-}
-#nav-menu a {
+.nav a {
     color: white;
-    text-decoration: none;   
+    text-decoration: none;
+    font-size: 16px;
 }
-#nav-menu a:hover {
-    text-decoration: underline;
+.nav a:hover {
+    background-color: rgb(184, 219, 57);
+    color: #333;
 }
 main {
     max-width: 1200px;
