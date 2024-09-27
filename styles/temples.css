@@ -9,7 +9,10 @@ body {
   background-color: whitesmoke;
 }
 
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 /* Header Styles */
 
@@ -94,11 +97,11 @@ footer {
 
 @media (max-width: 768px) {
   .header {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
   .nav {
-    flex-direction: column;
+    flex-direction: hide;
     gap: 10px;
   }
   .temple-grid {
