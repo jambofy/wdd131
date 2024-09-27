@@ -79,7 +79,7 @@ footer {
     align-items: center;
   }
   .nav {
-    flex-direction: hide;
+  
     gap: 10px;
   }
   .temple-grid {
