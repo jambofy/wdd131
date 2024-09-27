@@ -97,10 +97,9 @@ footer {
    .hamburger {
     display: block;
     cursor: pointer;
+    display: show;
   }
-  .nav li {
-    display: block;
-  }
+ 
   .temple-grid {
     grid-template-columns: repeat(2, 1fr);
   }
