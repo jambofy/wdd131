@@ -23,6 +23,9 @@ img {
 .nav {
   display: flex;
   gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
 .nav a {
   color: white;
@@ -32,6 +35,9 @@ img {
 .nav a:hover {
   background-color: rgb(184, 219, 57);
   color: #333;
+}
+.hamburger {
+  display: none;
 }
 /* Main Content Styles */
 main {
@@ -79,8 +85,18 @@ footer {
     align-items: center;
   }
   .nav {
-  
     gap: 10px;
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #4a0e4e;
+    width: 100%;
+    padding: 1rem;
+  }
+   .hamburger {
+    display: block;
+    cursor: pointer;
   }
   .temple-grid {
     grid-template-columns: repeat(2, 1fr);
