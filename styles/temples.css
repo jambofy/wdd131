@@ -2,19 +2,14 @@
 
 /* Global Styles */
 
-* {
-  box-sizing: border-box;
-}
+
 
 body {
   font-family: 'Roboto', sans-serif;
   background-color: whitesmoke;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+
 
 /* Header Styles */
 
