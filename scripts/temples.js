@@ -4,9 +4,9 @@ document.getElementById("currentyear").textContent = new Date().getFullYear();
 // Dynamically set the date when the document was last modified
 document.getElementById("lastModified").textContent = "Last Updated: " + document.lastModified;
 
-const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav-menu');
+const hamburger = document.querySelector('menu');
+const navMenu = document.querySelector('menu');
 
-hamburger.addEventListener('click', () => {
+menu.addEventListener('click', () => {
   navMenu.style.display = navMenu.style.display === 'block' ? 'none' : 'block';
 });
