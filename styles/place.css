@@ -36,6 +36,12 @@ main {
     text-align: center;
 }
 
+.weather img {
+    width: 10%;
+    height: auto;
+}
+
+
 h2 {
     font-family: "Roboto";
     color: var(--secondary-color);
