@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap');
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif; 
   background-color: whitesmoke;
   width: 30%;
   margin-left: 35%;
   margin-right: 50%;
-
 }
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif; /* Using Poppins for headings */
+}
+p {
+    font-weight: 300; /* Lighter font weight using Roboto */
+}
+
 header {
     background-color: black;
     color: white;
