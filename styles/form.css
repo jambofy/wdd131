@@ -49,6 +49,10 @@ select {
     margin-right: 10px;
 }
 
+.features{
+ font-style: italic;
+}
+
 input[type="submit"] {
     background-color: #4CAF50;
     color: white;
