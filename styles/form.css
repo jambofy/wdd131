@@ -51,7 +51,7 @@ select {
 }
 
 .features label {
-    display: list-item;
+    display: inline-block;
     margin-right: 10px;
 }
 
