@@ -85,20 +85,20 @@ function filterProjects(category) {
 const projects = [
     {
         projectName: "Carport",
-        description: "Aba, Nigeria",
+        description: "Protect your car from the sun",
         imageUrl: "images/carpot1.jpeg",
         category: "Carports"
     },
     {
         projectName: "Carport",
-        description: "Aba, Nigeria",
-        imageUrl: "images/carpot1.jpeg",
-        category: "Carports"
-    },
-    {
-        projectName: "Carport",
-        description: "Aba, Nigeria",
+        description: "Protect your car from the sun",
         imageUrl: "images/carpot2.jpg",
+        category: "Carports"
+    },
+    {
+        projectName: "Carport",
+        description: "Protect your car from the sun",
+        imageUrl: "images/carpot3.jpg",
         category: "Carports"
     },
     {
