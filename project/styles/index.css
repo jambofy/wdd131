@@ -282,4 +282,15 @@ footer {
     .hero p {
         font-size: 1rem;
     }
+
+    .cta {
+        background:  green; 
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
+    .cta:hover {
+        background: green; /* Darker shade on hover */
+    }
 }
