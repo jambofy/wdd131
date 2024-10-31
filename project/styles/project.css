@@ -266,7 +266,9 @@ footer .social-icons a {
     }
 
     #projects {
-    text-align: center;
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
     }
 
     h1 {
