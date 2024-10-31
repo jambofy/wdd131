@@ -265,6 +265,11 @@ footer .social-icons a {
         grid-template-columns: 1fr; /* 1 column on mobile */
     }
 
+    .project-card {
+    text-align: center;
+
+    }
+
     h1 {
         text-align: center;
         font-size: 2rem;
